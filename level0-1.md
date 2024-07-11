@@ -17,3 +17,4 @@ the second command displays the contents of the file **readme**
 
 Connect using the password to the **bandit.labs.overthewire.org** server on port **2220** as the user **bandit1**  
 (Refer level-0.md on how to do this)
+

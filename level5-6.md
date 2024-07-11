@@ -13,6 +13,14 @@ optionally you could also look for the other conditions as well i.e. Human reada
 ```bash
 find . -type f -size 1033c ! -executable -exec file {} + | grep -w text
 ```
+OR
+
+```bash
+find . -size 1033c -readable ! -executable
+```
 
 Here ! -executable is not executable and -exec executes the command **file** on each file and greps for the **text** in them  
 You can **cat** the file to the get the password  
+
+Here -readable gets you the readable files only  
+
